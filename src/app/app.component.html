@@ -1,0 +1,11 @@
+<!--<hello name="{{ name }}"></hello>-->
+<h1>Kirjaudu sisään</h1>
+    <div>
+      <label>Käyttäjätunnus:</label>
+      <input type="text" ng-model="username" placeholder=""><br/>
+      <label>Salasana:</label>
+      <input type="text" ng-model="password" placeholder="">
+      <hr>
+	  <button (click)="onClickMe()">Kirjaudu</button>
+    {{clickMessage}}
+    </div>
